@@ -1,0 +1,100 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-weight: 200;
+  font-size: 14px;
+  background-color: #fafafa;
+  color: #555555;
+  padding: 35px;
+}
+a {
+  transition: all 0.5s;
+}
+a:link {
+  color: #999;
+  text-decoration: none;
+}
+a:visited {
+  color: #999;
+  text-decoration: none;
+}
+a:active {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  color: #666;
+  text-decoration: none;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #777777;
+  width: 90%;
+  margin: 35px auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h1 {
+  font-weight: 200;
+  font-size: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #555555;
+}
+h2 {
+  font-weight: 200;
+  font-size: 28px;
+  text-align: center;
+  color: #555555;
+}
+h3 {
+  font-size: 22px;
+  color: #555555;
+}
+h4 {
+  font-size: 18px;
+  color: #555555;
+}
+h5 {
+  font-size: 16px;
+  color: #888888;
+  font-weight: 800;
+}
+h6 {
+  font-size: 14px;
+  color: #888888;
+  font-weight: 800;
+}
+code {
+  padding: 10px 15px;
+  background: #fdf6e3;
+  color: #657b83;
+  font-weight: 400;
+  line-height: 2em;
+}
+pre {
+  background: #fdf6e3;
+  color: #657b83;
+  border: 1px solid #002b36;
+  font-weight: 400;
+  padding: 35px;
+  transition: all .5s;
+}
+pre:hover {
+  background: #002b36;
+  color: #839496;
+}
+pre code {
+  background: none;
+  color: inherit;
+  white-space: pre-line;
+}
+img {
+  max-width: 100%;
+}
