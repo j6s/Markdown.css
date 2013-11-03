@@ -39,7 +39,7 @@
 
 ---
 
-![](http://nimius.net/fileadmin/user_upload/team/johannes/_MG_8142.jpg)
+![](README_images/testIMG.jpg)
 
 ---
 

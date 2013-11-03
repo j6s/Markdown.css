@@ -11,13 +11,14 @@ at the moment it is only one style, but there are more to come
 ## howto (for Mou)
 
 1. dowload the repo
-2. copy the files inside the `css/` folder to `~/Library/Application Support/Mou/CSS/`
+2. run the install script
+	- Or just  copy the files inside the `css/` folder to `~/Library/Application Support/Mou/CSS/`
 3. thats it
 
 ### Protip:
 by pressing [shift][cmd][G] in the Finder, you can paste in a path and Finder will jump to that path
 
-![](images/finder_path.png)
+![](README_images/finder_path.png)
 
 
 ```
@@ -31,7 +32,7 @@ so you have to copy the files /Users/{$yourUser}/Library/Application Support/Mou
 
 ## slick
 
-![](images/slick_1.png)
-![](images/slick_2.png)
-![](images/slick_3.png)
-![](images/slick_4.png)
+![](README_images/slick_1.png)
+![](README_images/slick_2.png)
+![](README_images/slick_3.png)
+![](README_images/slick_4.png)
