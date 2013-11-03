@@ -15,9 +15,12 @@ module.exports = function(grunt) {
 
     less: {
       development: {
+        options: {
+          'ieCompat': false,
+        },
         files: {
           'css/slick.css': 'less/slick.less',
-        }
+        },
       }
     },
 
