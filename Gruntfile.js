@@ -21,6 +21,7 @@ module.exports = function(grunt) {
         files: {
           'css/slick.css': 'less/slick.less',
           'css/gallant.css': 'less/gallant.less',
+          'css/ubuntu.css': 'less/ubuntu.less',
         },
       }
     },
