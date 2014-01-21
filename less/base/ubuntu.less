@@ -29,8 +29,11 @@
 
 
 
-.ubuntuDottedBackground(@bg:@ubuntuWhite,@dot:@ubuntuCoolGray){
-      background: radial-gradient(circle, white 10%, transparent 10%),
-radial-gradient(circle, @dot 10%, @bg 10%) 10px 10px;
-background-size:20px 20px;
+.ubuntuDottedBackground(@bg:@ubuntuWhite,@dot:@ubuntuWarmGray, @dotSize: 2px, @spaceSize: 6px, @fade: 30%){
+  @p: percentage(convert(@dotSize,"")/convert(@spaceSize,""));
+  @g: @dotSize + @spaceSize;
+
+  background: radial-gradient(circle, white @p, transparent @p),
+  radial-gradient(circle, fade(@dot,@fade) @p, @bg @p) @g/2 @g/2;
+  background-size:@g @g;
 }
