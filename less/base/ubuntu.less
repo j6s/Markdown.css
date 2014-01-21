@@ -1,0 +1,36 @@
+// Ubuntu color pallet, see
+// http://design.ubuntu.com/brand/colour-palette
+//
+// some colors such as white or black are not really neccesarry but are added, so that it is a complete package
+
+@ubuntuOrange:          #DD4814;
+@ubuntuWhite:           #ffffff;
+@ubuntuBlack:           #000000;
+
+@ubuntuLightAubergine:      #77216F;
+@ubuntuMidAubergine:        #5E2750;
+@ubuntuDarkAubergine:       #2C001E;
+// any explanation why canonical needs its own aubergine color?
+@ubuntuCanonicalAubergine:  #772953;
+
+@ubuntuWarmGray:        #AEA79F;
+@ubuntuCoolGray:        #333333;
+@ubuntuSmallDotGray:    #AEA79F;
+
+@ubuntuTextColor:       @ubuntuWarmGray;
+@ubuntuSmallHeading:    @ubuntuWarmGray;
+
+
+
+
+
+
+
+
+
+
+.ubuntuDottedBackground(@bg:@ubuntuWhite,@dot:@ubuntuCoolGray){
+      background: radial-gradient(circle, white 10%, transparent 10%),
+radial-gradient(circle, @dot 10%, @bg 10%) 10px 10px;
+background-size:20px 20px;
+}

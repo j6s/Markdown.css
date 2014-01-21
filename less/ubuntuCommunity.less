@@ -1,0 +1,108 @@
+@import "base/ubuntu.less";
+
+@textColor:       @ubuntuCoolGray;
+@h1Size:          64px;
+@h1Color:         @ubuntuWarmGray;
+@h2Size:          52px;
+@h2Color:         @ubuntuWarmGray;
+@h3Size:          36px;
+@h3Color:         @ubuntuCoolGray;
+@h4Size:          32px;
+@h4Color:         @ubuntuCoolGray;
+@h5Size:          26px;
+@h5Color:         @ubuntuCoolGray;
+@h6Size:          22px;
+@h6Color:         @ubuntuCoolGray;
+
+
+body {
+  font-family:      "Ubuntu", Helvetica, Arial;
+  font-weight:      200;
+  font-size:        16px;
+  color:            @textColor;
+  padding:          35px;
+  .ubuntuDottedBackground();
+}
+
+a{transition:all .5s}
+a:link{color:#999;text-decoration:none}
+a:visited{color:#999;text-decoration:none}
+a:active{color:#666;text-decoration:none}
+a:hover{color:#666;text-decoration:none}
+
+hr {
+  border:           none;
+  height:           1px;
+  background-color: @ubuntuWarmGray;
+  width:            90%;
+  margin:           35px auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
+
+h1 {
+  font-weight:      200;
+  font-size:        @h1Size;
+  color:            @h1Color;
+}
+
+h2 {
+  font-weight:  200;
+  font-size:    @h2Size;
+  color:        @h2Color;
+}
+
+h3 {
+  font-size:    @h3Size;
+  color:        @h3Color;
+}
+
+h4 {
+  font-size:    @h4Size;
+  color:        @h4Color;
+}
+
+h5 {
+  font-size:    @h5Size;
+  color:        @h5Color;
+  font-weight:  800;
+}
+
+h6 {
+  font-size:    @h6Size;
+  color:        @h6Color;
+  font-weight:  800;
+}
+
+code {
+  font-family: "Ubuntu Mono", "Ubuntu", monospace;
+  padding:      10px 15px;
+  background:   @ubuntuOrange;
+  color:        @ubuntuWhite;
+  font-weight:  400;
+  line-height:  2em;
+}
+
+pre {
+
+  background:   @ubuntuOrange;
+  color:        @ubuntuWhite;
+  font-weight:  400;
+  padding:      35px;
+  transition:   all .5s;
+
+  code {
+    background:   none;
+    color:        inherit;
+    white-space:  pre-line;
+  }
+}
+
+img {
+  max-width:      100%;
+}
+
+
