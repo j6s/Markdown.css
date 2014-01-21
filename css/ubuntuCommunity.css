@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   color: #333333;
   padding: 35px;
-  background: radial-gradient(circle, #ffffff 33.33333333333333%, transparent 33.33333333333333%), radial-gradient(circle, rgba(174, 167, 159, 0.3) 33.33333333333333%, #ffffff 33.33333333333333%) 4px 4px;
+  background: radial-gradient(circle, #ffffff 33.33333333333333%, transparent 33.33333333333333%), radial-gradient(circle, rgba(174, 167, 159, 0.075) 33.33333333333333%, #ffffff 33.33333333333333%) 4px 4px;
   background-size: 8px 8px;
 }
 a {
