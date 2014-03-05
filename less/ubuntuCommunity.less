@@ -2,26 +2,30 @@
 
 @textColor:       @ubuntuCoolGray;
 @h1Size:          64px;
-@h1Color:         @ubuntuWarmGray;
+@h1Color:         @ubuntuOrange;
 @h2Size:          52px;
-@h2Color:         @ubuntuWarmGray;
-@h3Size:          36px;
-@h3Color:         @ubuntuCoolGray;
-@h4Size:          32px;
-@h4Color:         @ubuntuCoolGray;
-@h5Size:          26px;
+@h2Color:         @ubuntuOrange;
+@h3Size:          46px;
+@h3Color:         @ubuntuWarmGray;
+@h4Size:          40px;
+@h4Color:         @ubuntuWarmGray;
+@h5Size:          32px;
 @h5Color:         @ubuntuCoolGray;
-@h6Size:          22px;
+@h6Size:          26px;
 @h6Color:         @ubuntuCoolGray;
 
 
 body {
   font-family:      "Ubuntu", Helvetica, Arial;
-  font-weight:      200;
+  font-weight:      400;
   font-size:        16px;
   color:            @textColor;
   padding:          35px;
   .ubuntuDottedBackground();
+}
+
+p {
+  line-height: 2;
 }
 
 a{transition:all .5s}
@@ -44,13 +48,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-weight:      200;
+  font-weight:      400;
   font-size:        @h1Size;
   color:            @h1Color;
 }
 
 h2 {
-  font-weight:  200;
+  font-weight:  400;
   font-size:    @h2Size;
   color:        @h2Color;
 }

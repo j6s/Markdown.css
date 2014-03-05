@@ -1,11 +1,14 @@
 body {
   font-family: "Ubuntu", Helvetica, Arial;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16px;
   color: #333333;
   padding: 35px;
   background: radial-gradient(circle, #ffffff 33.33333333333333%, transparent 33.33333333333333%), radial-gradient(circle, rgba(174, 167, 159, 0.075) 33.33333333333333%, #ffffff 33.33333333333333%) 4px 4px;
   background-size: 8px 8px;
+}
+p {
+  line-height: 2;
 }
 a {
   transition: all 0.5s;
@@ -43,30 +46,30 @@ h6 {
   font-weight: 400;
 }
 h1 {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 64px;
-  color: #aea79f;
+  color: #dd4814;
 }
 h2 {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 52px;
-  color: #aea79f;
+  color: #dd4814;
 }
 h3 {
-  font-size: 36px;
-  color: #333333;
+  font-size: 46px;
+  color: #aea79f;
 }
 h4 {
-  font-size: 32px;
-  color: #333333;
+  font-size: 40px;
+  color: #aea79f;
 }
 h5 {
-  font-size: 26px;
+  font-size: 32px;
   color: #333333;
   font-weight: 800;
 }
 h6 {
-  font-size: 22px;
+  font-size: 26px;
   color: #333333;
   font-weight: 800;
 }
